@@ -2567,7 +2567,7 @@ function makeConf(params) {
         let timestamp = `?t=${new Date().getTime()}`
         v[1] = `RULE-SET,SYSTEM,DIRECT\nRULE-SET,${autoNewPrefix}/apple.list${timestamp},🍎 Only`
         v[2] = ads ? `RULE-SET,${autoNewPrefix}/reject.list${timestamp},REJECT` : ''
-        v[3] = `RULE-SET,${autoNewPrefix}/china_media.list${timestamp},🍂 Domestic\nRULE-SET,${autoNewPrefix}/global_media.list${timestamp},🍃 Proxy\nRULE-SET,${autoNewPrefix}/proxy.list${timestamp},🍃 Proxy`
+        v[3] = `RULE-SET,${autoNewPrefix}/china_media.list${timestamp},🍂 Domestic\nRULE-SET,${autoNewPrefix}/global_media.list${timestamp},🎵 Global Media\nRULE-SET,${autoNewPrefix}/proxy.list${timestamp},🍃 Proxy`
         v[4] = `RULE-SET,${autoNewPrefix}/domestic.list${timestamp},🍂 Domestic\nRULE-SET,LAN,DIRECT`
       }
 
