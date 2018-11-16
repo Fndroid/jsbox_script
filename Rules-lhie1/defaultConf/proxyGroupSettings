@@ -5,6 +5,8 @@
 
 🍎 Only = select,🚀 Direct,Proxy Header
 
+🎵 Global Media = select,🍃 Proxy, Proxy Header
+
 ☁️ Others =  select,🚀 Direct,🍃 Proxy
 
 🏃 Auto = url-test,ProxyHeader,url = http://www.gstatic.com/generate_204,interval = 1200
